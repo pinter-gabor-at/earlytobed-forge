@@ -7,7 +7,7 @@ First you must kill three sheep with your bare hands or with a wooden sword.
 Then you create a bed from the spoil of this brutal act and expect to sleep soundly. - Barbaric.
 
 So I made this mod to allow a less violent start.
-I have created a wooden shear.
+I have created the wooden shears.
 It has pitifully low durability, barely enough to collect 3 wools for your first bed.
 
 ![Screenshot](./images/screenshot2.png "Screenshot")

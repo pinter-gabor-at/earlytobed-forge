@@ -1,6 +1,9 @@
 package eu.pintergabor.earlytobed.item;
 
 import eu.pintergabor.earlytobed.ModCommon;
+
+import net.minecraft.world.item.ShearsItem;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,7 +23,7 @@ public final class ModItems {
 		() -> new WoodenBucketItem(Fluids.WATER, new Item.Properties()));
 	// A pair of wooden shears
 	public static final RegistryObject<Item> WOODEN_SHEARS_ITEM = ITEMS.register("wooden_shears",
-		() -> new WoodenShearsItem(new Item.Properties().durability(3)));
+		() -> new ShearsItem(new Item.Properties().durability(3)));
 
 	public static void register(IEventBus eventBus) {
 		ITEMS.register(eventBus);
