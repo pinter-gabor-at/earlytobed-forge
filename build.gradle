@@ -4,7 +4,6 @@ plugins {
 	id 'maven-publish'
 	id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
 	id 'org.parchmentmc.librarian.forgegradle' version '1.+'
-	id 'org.spongepowered.mixin' version '0.7.+'
 }
 
 version = mod_version + "-forge+mc" + minecraft_version
@@ -108,14 +107,6 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-	// Put repositories for dependencies here
-	// ForgeGradle automatically adds the Forge maven and Maven Central for you
-
-	// If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-	// flatDir {
-	//     dir 'libs'
-	// }
 }
 
 dependencies {
@@ -125,17 +116,6 @@ dependencies {
 	// If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
 	// then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
 	minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
-	annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-}
-
-mixin {
-	// MixinGradle Settings
-	add sourceSets.main, 'eu.pintergabor.earlytobed.mixins.refmap.json'
-	config 'eu.pintergabor.earlytobed.mixins.json'
-
-	debug.verbose = true
-	debug.export = true
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
