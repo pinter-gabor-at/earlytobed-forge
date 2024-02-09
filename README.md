@@ -1,12 +1,19 @@
-# Minecraft Fabric DirtCheap Mod
+# Minecraft Forge Early to Bed Mod
 
-Dirt must be dirt cheap. But in Minecraft cobblestone is cheaper than dirt, because it is free.
+"Early to bed, early to rise, makes a man healthy, wealthy, and wise"
 
-Although there are complicated ways to create dirt from cobblestone, I do not like them. 
-So I made this mod to make dirt really cheap by adding a few recipes that allow duplication
-of dirt blocks by mixing them with cheap, easily renewable items. 
+But when starting a new game in Minecraft you cannot go early to bed.
+First you must kill three sheep with your bare hands or with a wooden sword.
+Then you create a bed from the spoil of this brutal act and expect to sleep soundly. - Barbaric.
 
-![Recipe1](images/recipe1.png) ![Recipe2](images/recipe2.png)
+So I made this mod to allow a less violent start.
+I have created a wooden shear.
+It has pitifully low durability, barely enough to collect 3 wools for your first bed.
+
+![Screenshot](./images/screenshot2.png "Screenshot")
+
+There is one more item to help you at the very beginning of a new game: the wooden bucket.
+It is similar to a normal bucket, but made of wood, can hold only water, and does not interact with cauldrons.
 
 ## License
 
@@ -14,7 +21,8 @@ Standard MIT license. Feel free to learn from it and incorporate it in your own 
 
 ## Source code
 
-Available on [GitLab](https://gitlab.com/pintergabor/dirtcheap.git) or on [GitHub](https://github.com/pinter-gabor-at/dirtcheap.git).
+Fabric version: on [GitLab](https://gitlab.com/pintergabor/earlytobed.git) or on [GitHub](https://github.com/pinter-gabor-at/earlytobed.git).  
+Forge version: on [GitLab](https://gitlab.com/pintergabor/earlytobed-forge.git) or on [GitHub](https://github.com/pinter-gabor-at/earlytobed-forge.git).
 
 ## For developers
 
@@ -22,4 +30,6 @@ Quite often, when I start learning programming on a new platform, I find even th
 Tutorials, written by experts, with years of experience programming on that platform, sometimes forget how difficult those first step are.
 This is why I decided to make my first, very simple, Minecraft mods publicly available.
 
-This mod is probably the simplest possible which adds something usable to Minecraft. The source code is short, and fully documented. It is a good starting point for anyone new to modding.  
+## See also
+
+My other mods on [Modrinth](https://modrinth.com/user/pinter.gabor) and on [CurseForge](https://www.curseforge.com/members/pintergabor/projects).
